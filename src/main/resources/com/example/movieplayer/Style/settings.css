@@ -1,0 +1,10 @@
+.anchorPane{
+    -fx-background-image :url("../Images/SettingsBackground.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+Button{
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-pref-width: 50px;
+}

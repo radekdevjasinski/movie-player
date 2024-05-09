@@ -1,0 +1,6 @@
+.slider .thumb {
+    -fx-background-image :url("../Images/Slider.png");
+    -fx-background-color: transparent;
+    -fx-pref-width: 87px;
+    -fx-pref-height: 21px;
+}
