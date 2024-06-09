@@ -75,7 +75,7 @@ public class MainController {
     private ImageView imageButtonPlay;
     @FXML
     private Slider sliderSound;
-    private Media media;
+        private Media media;
     private MediaPlayer mediaPlayer;
     boolean isPlaying = false;
     private Timeline hideUITimeline;
@@ -175,6 +175,7 @@ public class MainController {
 
     @FXML
     void SelectMedia(ActionEvent event) {
+        //Stworzenie obiektu odpowiedzialnego za wyświetlenie wyboru pliku
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Select Movie");
         File selectedFile = fileChooser.showOpenDialog(null);
